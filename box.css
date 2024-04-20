@@ -1,0 +1,135 @@
+:root {
+  background-color: rgb(186, 196, 210);
+}
+.outer-box {
+  border: 2px solid #000;
+  padding: 20px;
+  margin: 20px;
+  width: 87%;
+}
+.outer-box {
+  border: 2px solid #000;
+  border-radius: 24px;
+  padding: 24px;
+  margin: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.middle-box {
+  border: 2px solid #000;
+  border-radius: 24px;
+  padding: 24px;
+  margin: 20px;
+  width: 80%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.midcontainer {
+  border: 2px solid #000;
+  border-radius: 24px;
+  padding: 24px;
+  margin: 20px;
+  width: 40%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right-box {
+  border: 2px solid #000;
+  border-radius: 24px;
+  padding: 24px;
+  margin: 20px 20px 0px 20px;
+  width: 15%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lowmid-box {
+  border: 2px solid #000;
+  border-radius: 24px;
+  padding: 24px;
+  margin: 20px;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box {
+  border-radius: 24px;
+  width: 15%;
+  border: 2px solid #000;
+  padding: 20px;
+}
+
+.nested-boxes {
+  border-radius: 24px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #000;
+}
+
+.small-box {
+  width: 20%;
+  border-radius: 24px;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+.midSmall-box {
+  width: 20%;
+  border-radius: 24px;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+.small-box1 {
+  width: 80%;
+  height: 24px;
+  border-radius: 24px;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+.rightSmall-box {
+  width: 80%;
+  height: 30%;
+  border-radius: 24px;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+.mid-box {
+  width: 90%;
+  height: 30%;
+  border-radius: 24px;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.left-bar {
+  border: 2px solid #000;
+  border-radius: 24px;
+  padding: 24px;
+  margin: 32px;
+  width: 15%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
